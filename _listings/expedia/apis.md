@@ -7,99 +7,100 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedi
 x-kinRank: "9"
 x-alexaRank: "197733"
 tags: Cars
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Expedia Search
-  x-api-slug: expedia
+- name: Expedia - Search
+  x-api-slug: mapicarssearchairport-get
   description: Mobile API Cars
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/cars/search/airport
-  tags: Travel,Cars
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarssearchairport-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarssearchairport-get-openapi.md
-- name: Expedia Search
-  x-api-slug: expedia
+- name: Expedia - Search
+  x-api-slug: mapicarssearchlocation-get
   description: Mobile API Cars
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/cars/search/location
-  tags: Travel,Cars
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarssearchlocation-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarssearchlocation-get-openapi.md
-- name: Expedia Search
-  x-api-slug: expedia
+- name: Expedia - Search
+  x-api-slug: mapicarssearch-get
   description: Mobile API Cars
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/cars/search
-  tags: Travel,Cars
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarssearch-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarssearch-get-openapi.md
-- name: Expedia Create A Trip
-  x-api-slug: expedia
+- name: Expedia - Create A Trip
+  x-api-slug: mapicarstripcreate-post
   description: Mobile API Cars Create Trip
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/cars/trip/create
-  tags: Travel,Cars
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarstripcreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarstripcreate-post-openapi.md
-- name: Expedia Checkout
-  x-api-slug: expedia
+- name: Expedia - Checkout
+  x-api-slug: mapicarstripcheckout-post
   description: Mobile API Cars Checkout
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/cars/trip/checkout
-  tags: Travel,Cars
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarstripcheckout-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarstripcheckout-post-openapi.md
-- name: Expedia Cancel Trip
-  x-api-slug: expedia
+- name: Expedia - Cancel Trip
+  x-api-slug: mapicarstripcancel-post
   description: car Trip Cancellation
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
   humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x///m/api/cars/trip/cancel
-  tags: Travel,Cars
+  baseURL: https://apim.expedia.com/x/
+  tags: Reservations, Travel, Hotels, Flights, Travel, Stack Network, Stack, Transportation,
+    Enterprise, Technology, API Provider, Travel, Bookings, Profiles, Relative Data,
+    General Data, Pedestal, Networks
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarstripcancel-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/mapicarstripcancel-post-openapi.md
-- name: Expedia
-  x-api-slug: expedia
-  description: Expedia is the leader in travel and technology and is the worlds largest
-    travel company. The EAN Developer Hub gives developers FREE access to our highly
-    flexible APIs that power cutting-edge websites, mobile apps, and much more. Some
-    of the best travel applications on the market are powered by the EAN API. Learn
-    more reasons to partner with EAN by taking a look at our brochure and watching
-    our video. The world of travel awaits you!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg
-  humanURL: http://developer.ean.com/
-  baseURL: https://apim.expedia.com/x/
-  tags: Cars
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://evrythng.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://expedia.stack.network
 - type: x-base
   url: http://api.ean.com
 - type: x-crunchbase

@@ -7,13 +7,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sand
 x-kinRank: "8"
 x-alexaRank: "4309"
 tags: Cars
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Amadeus Get Cars Search Airport
-  x-api-slug: amadeus
+- name: Amadeus - Get Cars Search Airport
+  x-api-slug: carssearchairport-get
   description: "With this API you can find out the price and type of car, for all
     car rental providers, near a specified airport.\n\nYou can quickly see the locations
     of car providers near a given airport, and what cars are available to rent, and
@@ -28,15 +28,16 @@ apis:
     where it will be dropped off."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//cars/search-airport
-  tags: Cars, Search, Airport
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/carssearchairport-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/carssearchairport-get-openapi.md
-- name: Amadeus Get Cars Search
-  x-api-slug: amadeus
+- name: Amadeus - Get Cars Search
+  x-api-slug: carssearchcircle-get
   description: "With this API you can find out the price and type of car, for all
     car rental providers, in a specified geographical location.\n\nYou can quickly
     see the locations of car providers near a given point, and what cars are available
@@ -51,26 +52,19 @@ apis:
     is the same as the one where it will be dropped off."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
   humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2//cars/search-circle
-  tags: Cars, Search, Circle
+  baseURL: https://api.sandbox.amadeus.com//v1.2
+  tags: Marketplace, Technology, Travel, Transportation, Airlines, API Provider, Hotels,
+    Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/carssearchcircle-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/carssearchcircle-get-openapi.md
-- name: Amadeus
-  x-api-slug: amadeus
-  description: Amadeus travel technology helps businesses connect to the global travel
-    ecosystem, manage operations more effectively and serve travellers better than
-    ever
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg
-  humanURL: https://amadeus.com
-  baseURL: https://api.sandbox.amadeus.com//v1.2
-  tags: Cars
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://amadeus.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://amadeus.stack.network
 - type: x-crunchbase
   url: https://crunchbase.com/organization/amadeus
 - type: x-documentation
