@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Expedia
 x-complete: 1
@@ -288,4 +287,3 @@ paths:
       tags:
       - Travel
       - Cars
----

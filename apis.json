@@ -1,0 +1,90 @@
+{
+	"name": "Streadata.io API Gallery - Cars",
+	"description": "This is a repository of cars APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/cars.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://cars.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Expedia",
+			"x-api-slug": "expedia",
+			"description": "Expedia Affiliate Network is the B2B partnership brand of Expedia, Inc. Our technology powers the hotel offering of thousands of partners around the world.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/195-expedia.jpg",
+			"humanURL": "http://developer.ean.com/",
+			"baseURL": "https://apim.expedia.com/x/",
+			"tags": "Cars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ParkWhiz",
+			"x-api-slug": "parkwhiz",
+			"description": "Use ParkWhiz to book parking spaces in cities like Chicago & New York, as well as airport parking, stadium & event parking, or daily & monthly parking.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/633-parkwhiz.jpg",
+			"humanURL": "http://www.parkwhiz.com",
+			"baseURL": "https:///",
+			"tags": "Cars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/parkwhiz/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Uber",
+			"x-api-slug": "uber",
+			"description": "The Uber API exposes a set of RESTful endpoints that enable your application to GET information such as time and price estimates about the products offered in a given location, request rides on behalf of authenticated users, and create ride reminders for users to take a ride at a specific time in the future.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11277-uber.jpg",
+			"humanURL": "https://uber.com",
+			"baseURL": "https://api.uber.com//v1",
+			"tags": "Cars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/uber/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Amadeus",
+			"x-api-slug": "amadeus",
+			"description": "Amadeus travel technology helps businesses connect to the global travel ecosystem, manage operations more effectively and serve travellers better than ever",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28139-sandbox-amadeus-com.jpg",
+			"humanURL": "https://amadeus.com",
+			"baseURL": "https://api.sandbox.amadeus.com//v1.2",
+			"tags": "Cars",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Cars",
+	"include": [
+		{
+			"name": "Expedia",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/expedia/apis.yaml"
+		},
+		{
+			"name": "ParkWhiz",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/parkwhiz/apis.yaml"
+		},
+		{
+			"name": "Uber",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/uber/apis.yaml"
+		},
+		{
+			"name": "Amadeus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/cars/master/_listings/amadeus/apis.yaml"
+		}
+	]
+}
